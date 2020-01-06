@@ -1,17 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Loading />
+    <StaggeredLandinText />
+    <Reveal />
+    <Snow />
+    <BtnHoverBorderStroke />
+    <HeaderWithSlideBar />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Loading from './components/Loading.vue';
+import StaggeredLandinText from './components/StaggeredLandinText.vue';
+import Reveal from './components/Reveal.vue';
+import Snow from './components/Snow.vue';
+import BtnHoverBorderStroke from './components/BtnHoverBorderStroke.vue';
+import HeaderWithSlideBar from './components/HeaderWithSlideBar.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Loading,
+    StaggeredLandinText,
+    Reveal,
+    Snow,
+    BtnHoverBorderStroke,
+    HeaderWithSlideBar,
   }
 }
 </script>
@@ -21,8 +35,10 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 20px;
+}
+#app > div {
+  padding: 30px;
+  margin: 20px 0;
 }
 </style>
