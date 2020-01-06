@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '<css-animations>'
+  publicPath: '/css-animations/'
 }
