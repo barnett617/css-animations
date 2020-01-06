@@ -17,5 +17,6 @@ git add -A
 message="deploy at ${datatime}"
 echo message
 git commit -m "${message}"
+git push
 
 npm run publish
