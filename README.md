@@ -38,3 +38,9 @@ npm run lint
 - [应该如何使用Github Pages?](https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Using_Github_pages)
 - [Deploying a subfolder to GitHub Pages](https://gist.github.com/cobyism/4730490)
 - [vue publicPath](https://cli.vuejs.org/config/#publicpath)
+
+### TODO
+
+- [ ] 将每个组件拆分成不同的路由进行单独显示
+- [ ] 首页增加菜单，罗列所有动画入口，点击进入后自动全屏
+- [ ] 每个页面右上角增加全屏开关按钮、返回按钮、刷新重看按钮 
