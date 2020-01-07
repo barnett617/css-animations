@@ -14,7 +14,7 @@ echo Building. this may take a minute...
 npm run build
 
 # record public time
-datatime=$(date)
+datatime=$(date "+%Y-%m-%d %H:%M:%S")
 
 # commit change
 git add -A
